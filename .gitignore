@@ -8,3 +8,7 @@ node_modules/
 *.sqlite3
 __pycache__
 htmlcov/
+drf_api/
+manage.py
+requirements.txt
+profiles/
