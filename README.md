@@ -141,7 +141,7 @@ Summary about wireframes.
 The complete set of wireframes can be viewed in via these images:
  - [Home Wireframes](readme-assets/images/rhondda-taekwondo-home-wireframe.jpg)
  - [Classes Wireframes](readme-assets/images/rhondda-taekwondo-classes-wireframe.jpg)
- - [Contact Wireframes](readme-assets/images/rhondda-taekwondo-contant-wireframe.jpg)
+ - [Contact Wireframes](readme-assets/images/rhondda-taekwondo-contact-wireframe.jpg)
 
 
 ### Surface
