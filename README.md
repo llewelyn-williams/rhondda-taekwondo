@@ -151,10 +151,6 @@ Considerations and decisions.
 
 ## Technologies Used
 ### Languages
-
-*[HTML]: Hyper Text Markup Language
-*[CSS]: Cascading Style Sheets
-
  - HTML 
  - CSS
 
