@@ -132,16 +132,16 @@ Three main pages or content areas can provide the functions required.
 
 #### Navigation Tree
 
-![Diagram showing the navigation flow](readme-assets/images/rhondda-taekwondo-sitemap.jpg)
+![Diagram showing the navigation flow](assets/wireframes/rhondda-taekwondo-sitemap.jpg)
 
 #### Wireframes
 
 Summary about wireframes.
-![An image previewing some of the wireframes made for the project](readme-assets/images/rhondda-taekwondo-home-wireframe.jpg)
+![An image previewing some of the wireframes made for the project](assets/wireframes/rhondda-taekwondo-home-wireframe.jpg)
 The complete set of wireframes can be viewed in via these images:
- - [Home Wireframes](readme-assets/images/rhondda-taekwondo-home-wireframe.jpg)
- - [Classes Wireframes](readme-assets/images/rhondda-taekwondo-classes-wireframe.jpg)
- - [Contact Wireframes](readme-assets/images/rhondda-taekwondo-contact-wireframe.jpg)
+ - [Home Wireframes](assets/wireframes/rhondda-taekwondo-home-wireframe.jpg)
+ - [Classes Wireframes](assets/wireframes/rhondda-taekwondo-classes-wireframe.jpg)
+ - [Contact Wireframes](assets/wireframes/rhondda-taekwondo-contact-wireframe.jpg)
 
 
 ### Surface
