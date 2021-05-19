@@ -12,3 +12,5 @@ drf_api/
 manage.py
 requirements.txt
 profiles/
+.gitpod.dockerfile
+.gitpod.yml
