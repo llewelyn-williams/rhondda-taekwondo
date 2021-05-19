@@ -1,59 +1,261 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rhondda Taekwondo
 
-Welcome John Long,
+A responsive website for a local martial arts club in the Rhondda valley. The the website serves as promotion for the club, a point to discover essential details about the classes and opportunities to make contact.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+**The live project is available on GitHub Pages: [Rhondda Taekwondo](#)**
 
-## Gitpod Reminders
+![Image showing the project displaying responsively on different device types.](https://dummyimage.com/600x450/a6a6a6/dedede.png&text=Beautiful+Spread+of+Responsive+Mockups)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## Table of Contents
+- [Features](#features)
+  * [Current Features](#current-features)
+  * [Future Features](#future-features)
+- [User Experience Design](#user-experience-design)
+  * [Strategy](#strategy)
+  * [Scope](#scope)
+    + [Problems to Solve](#problems-to-solve)
+    + [User Stories](#user-stories)
+  * [Structure](#structure)
+  * [Skeleton](#skeleton)
+    + [Navigation Tree](#navigation-tree)
+    + [Wireframes](#wireframes)
+  * [Surface](#surface)
+- [Technologies Used](#technologies-used)
+  * [Languages](#languages)
+  * [Frameworks](#frameworks)
+  * [Other Services and Software](#other-services-and-software)
+- [Testing](#testing)
+  * [Functionality](#functionality)
+  * [Usability](#usability)
+  * [Responsiveness](#responsiveness)
+  * [Unfixed Bugs](#unfixed-bugs)
+- [Deployment Instructions](#deployment-instructions)
+- [Acknowledgements](#acknowledgements)
+  * [Content](#content)
+  * [Media](#media)
+  * [Thanks](#thanks)
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+## Features
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+A summary of the features in the project.
 
-A blue button should appear to click: _Make Public_,
+### Current Features
+These features have been implemented in the project.
 
-Another blue button should appear to click: _Open Browser_.
+ - Feature One
+	 * Detail of the feature
+	 * Detail of the feature
+	 
+![Screenshot showing specified implemented feature](https://dummyimage.com/600x200/a6a6a6/dedede.png&text=Feature+Screenshot)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+ - Feature Two
+	 * Detail of the feature
+	 * Detail of the feature
+	 
+![Screenshot showing specified implemented feature](https://dummyimage.com/600x200/a6a6a6/dedede.png&text=Feature+Screenshot)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+ - Feature Three
+	 * Detail of the feature
+	 * Detail of the feature
+	 
+![Screenshot showing specified implemented feature](https://dummyimage.com/600x200/a6a6a6/dedede.png&text=Feature+Screenshot)
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+ - Feature Four
+	 * Detail of the feature
+	 * Detail of the feature
+	 
+![Screenshot showing specified implemented feature](https://dummyimage.com/600x200/a6a6a6/dedede.png&text=Feature+Screenshot)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Future Features
+Possible features to be considered for future releases.
+- Feature One
+	 * Detail of the feature
+	 * Detail of the feature
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- Feature Two
+	 * Detail of the feature
+	 * Detail of the feature
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## User Experience Design
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Strategy
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The website is aimed at prospective students considering joining a martial arts club and parents looking to chose a martial arts club for their child or children.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Users will expect responsive design and seamless use of familiar conventions to access the information that they want to see as simply as possible.
 
----
+Both the user and owner should mutually benefit from a sense on confidence being established in the club, leading to users being inspired to either join up or make contact.
 
-Happy coding!
+### Scope
+
+#### Problems to Solve
+People currently don't know:
+ - the club exists
+ - what the club does
+ - what the club offers
+ - how to get it from the club
+ 
+Neither are they:
+ - joining the club
+ - engaging with the club
+
+The target is a website with low complexity, that is however visually and functionally well polished and creates a sense of trust.
+
+#### User Stories
+
+| Scenario | Requirements  |
+|----------|---------------|
+| **As a parent**, I want to see information about where the club is, when the classes run, what the cost is and what my child will learn, so I can assess if it is a good fit for our family. | The information they are looking for needs to be present and quick and simple to access. |
+| I want to be able to ask questions I might have, to help me make a decision or get an even better picture of the club. | Provide method and means of contact.|
+| I want to know my child will  be safe. | Provide details of how the club approaches safety. |
+| **As a potential student**, I want to find out when the classes run, what the cost is and what I will learn, so I can assess if it is a good fit for myself. | The information they are looking for needs to be present and quick and simple to access.|
+| I want to be able to ask questions, to find out more. | Provide method and means of contact.|
+| I want to know what I will gain.  | Description of what the club offers. |
+| **As an existing member** of the club I want to check details about the club, so that I can deepen my understanding of my role within it. | External links to further explore about the martial art of the club. |
+
+### Structure
+
+Three main pages or content areas can provide the functions required.
+1. A landing page that quickly conveys the most basic information about the club establishes purpose.
+2. An essential information area, with details of location, times and costs.
+3. A contact area, with various contact options including a contact form inside a modal.
+
+### Skeleton
+
+#### Navigation Tree
+
+![Diagram showing the navigation flow](readme-assets/images/rhondda-taekwondo-sitemap.jpg)
+
+#### Wireframes
+
+Summary about wireframes.
+![An image previewing some of the wireframes made for the project](readme-assets/images/rhondda-taekwondo-home-wireframe.jpg)
+The complete set of wireframes can be viewed in via these images:
+ - [Home Wireframes](readme-assets/images/rhondda-taekwondo-home-wireframe.jpg)
+ - [Classes Wireframes](readme-assets/images/rhondda-taekwondo-classes-wireframe.jpg)
+ - [Contact Wireframes](readme-assets/images/rhondda-taekwondo-contant-wireframe.jpg)
+
+
+### Surface
+
+Considerations and decisions.
+
+
+## Technologies Used
+### Languages
+
+*[HTML]: Hyper Text Markup Language
+*[CSS]: Cascading Style Sheets
+
+ - HTML 
+ - CSS
+
+
+### Frameworks
+ - Bootstrap
+ - Additional Framework
+ - Additional Framework
+ 
+### Other Services and Software
+ - GitHub
+ 	 - How and why used.
+ - GitPod
+ 	 - How and why used.
+ - [StackEdit](https://stackedit.io)
+	 - Used to assist in the planning and creation of this README markdown file.
+ - [markdown-toc](https://ecotrust-canada.github.io/markdown-toc)
+	 - Used to generate table of contents in markdown for this README markdown file.
+ - [miro](https://miro.com/)
+	 - For the creation of [sitemap](#navigation-tree) and [wireframes](#wireframes).
+
+
+## Testing
+
+### Functionality
+
+Type of functionality.
+ 1. Testing procedure...
+ 2. Implemented by doing...
+ 3. The result was...
+ 4. Therefore I did this...  
+ 
+Type of functionality.  
+ 1. Testing procedure...
+ 2. Implemented by doing...
+ 3. The result was...
+ 4. Therefore I did this...
+
+Type of functionality.  
+ 1. Testing procedure...
+ 2. Implemented by doing...
+ 3. The result was...
+ 4. Therefore I did this...
+
+### Usability
+
+Type of usability.  
+ 1. Testing procedure...
+ 2. Implemented by doing...
+ 3. The result was...
+ 4. Therefore I did this...
+
+Type of usability.  
+ 1. Testing procedure...
+ 2. Implemented by doing...
+ 3. The result was...
+ 4. Therefore I did this...
+
+### Responsiveness
+
+Type of responsiveness.  
+ 1. Testing procedure...
+ 2. Implemented by doing...
+ 3. The result was...
+ 4. Therefore I did this...
+
+### Unfixed Bugs
+
+There were the following shortcomings in the technologies used.
+
+ - List item
+ - List item
+ - List item
+
+## Deployment Instructions
+
+ 1. Instruction item
+ 2. Instruction item
+ 3. Instruction item
+ 4. Instruction item
+ 5. Instruction item
+ 6. Instruction item
+ 7. Instruction item
+
+
+## Acknowledgements
+
+### Content
+
+ - Source
+ - Source
+ - Source
+ - Source
+
+### Media
+
+ - Source
+ - Other
+ - Other
+
+### Thanks
+
+ - You
+ - and you
