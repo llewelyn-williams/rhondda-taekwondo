@@ -3,11 +3,28 @@ body {
     padding: 0;
 }
 
-
 .container-fluid, .row {
     padding: 0;
 }
 
+/* Remove all padding and margins from Bootstrap Rows */
+
+/* Hints gained for how to use criteria in assesst selectorsvia 
+ https://stackoverflow.com/questions/5110249/wildcard-in-css-for-classes */
+
+/* This fixes horizontal scrolling issue where 
+Bootstrap styled elements paddings or magins
+would increase the size of containing elements
+beyond the screen width. */
+.row, [class^="row-"] {
+    padding: 0;
+    margin: 0;
+}
+
+.col, [class^="col-"] {
+    padding: 0;
+    margin: 0;
+}
 
 .header-banner{
     background: url(../images/hero-image.png);
