@@ -2,3 +2,35 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
+.container-fluid, .row {
+    padding: 0;
+}
+
+
+.header-banner{
+    background: url(../images/hero-image.png);
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+
+/* Position the header text virtically centred. */
+.header-banner h2{
+    /* Styles taken from W3C Schools Guide https://www.w3schools.com/howto/howto_css_center-vertical.asp */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    /* --- */
+    padding: 20px;
+}
+
+@media (min-width: 576px) {
+    .header-banner h2{
+        padding: 10px;
+        width: 50%;
+    }
+}
