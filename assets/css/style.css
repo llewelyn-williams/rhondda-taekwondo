@@ -51,3 +51,18 @@ beyond the screen width. */
         width: 50%;
     }
 }
+
+.nav-item{
+    border-left:2px solid black;
+    border-top:2px solid black;
+
+}
+
+.navbar {
+    padding-bottom: 0;
+    height: 100%;
+}
+
+.navbar-nav {
+    margin-top: auto;
+}
