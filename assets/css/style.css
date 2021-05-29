@@ -31,6 +31,17 @@ beyond the screen width. */
     background-size: cover;
     height: 400px;
     position: relative;
+    /* Top margin to be the same as the height of the nav area.
+    Be mindful that if the header height changes due to altered
+    content or due to differnt screen sizes then this value may
+    need to be altered. */
+    margin-top: 56px;    
+
+}
+
+#nav-area {
+    height: 56px;
+    background-color: white;
 }
 
 /* Position the header text virtically centred. */
