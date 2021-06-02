@@ -77,3 +77,12 @@ beyond the screen width. */
 .navbar-nav {
     margin-top: auto;
 }
+
+/* Helps to align the navigation to the bottom of its area. */
+.navbar-collapse {
+    height: 100%;
+}
+
+.navbar-toggler {
+    margin-top: 1rem;
+}
