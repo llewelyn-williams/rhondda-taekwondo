@@ -93,3 +93,12 @@ beyond the screen width. */
 .navbar-toggler {
     margin-top: 1rem;
 }
+
+
+.mid-page-image {
+    background: url(../images/competition-arena.jpg);
+    background-size: cover;
+    height: 300px;
+    background-position-x: 80%;
+    background-position-y: 60%;
+}
