@@ -45,7 +45,7 @@ beyond the screen width. */
     background-color: white;
 }
 
-/* Position the header text virtically centred. */
+/* Position the header text vertically centred. */
 .header-banner h2{
     /* Styles taken from W3C Schools Guide https://www.w3schools.com/howto/howto_css_center-vertical.asp */
     margin: 0;
@@ -55,6 +55,12 @@ beyond the screen width. */
     transform: translateY(-50%);
     /* --- */
     padding: 20px;
+    text-align: center;
+    
+}
+
+.half-transparent-highlight-white {
+    background-color: rgba(255, 255, 255, .5);
 }
 
 @media (min-width: 576px) {
