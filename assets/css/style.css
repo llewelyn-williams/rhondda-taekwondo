@@ -83,15 +83,20 @@ beyond the screen width. */
 
 .navbar-nav {
     margin-top: auto;
+    border-bottom: 2px solid black;
+    background: white;
 }
 
-/* Helps to align the navigation to the bottom of its area. */
+
 .navbar-collapse {
-    height: 100%;
+    height: 100%; /* Helps to align the navigation to the bottom of its area. */
+    padding-top: 0.5rem; /*  Drops the navigation down to become level with the top of the next page area */
 }
 
+/* The burger button container */
 .navbar-toggler {
-    margin-top: 1rem;
+    margin-top: .5rem;
+    margin-right: .5rem;
 }
 
 
@@ -102,3 +107,5 @@ beyond the screen width. */
     background-position-x: 80%;
     background-position-y: 60%;
 }
+
+
