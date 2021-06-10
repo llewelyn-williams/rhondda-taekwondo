@@ -36,7 +36,7 @@ beyond the screen width. */
     Be mindful that if the header height changes due to altered
     content or due to differnt screen sizes then this value may
     need to be altered. */
-    margin-top: 56px;    
+    margin-top: 56px;   
 
 }
 
@@ -109,3 +109,14 @@ beyond the screen width. */
 }
 
 
+.black-top-border-5 {
+    border-top: 5px solid black;
+}
+
+.black-top-border-3 {
+    border-top: 3px solid black;
+}
+
+.black-bottom-border-5 {
+    border-bottom: 5px solid black;
+}
