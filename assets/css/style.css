@@ -89,8 +89,16 @@ beyond the screen width. */
 
 
 .navbar-collapse {
-    height: 100%; /* Helps to align the navigation to the bottom of its area. */
-    padding-top: 0.5rem; /*  Drops the navigation down to become level with the top of the next page area */
+    padding-top: 0.5rem; /* Drops the navigation down to become level with the top of the next page area */
+}
+
+/* The beolow style needs the media query as it inturups the function
+of the bootstrap animatimation on the nav element if set while using 
+the dropdown */
+@media (min-width: 576px) {
+    .navbar-collapse {
+        height: 100%; /* Helps to align the navigation to the bottom of its area. */
+    }
 }
 
 /* The burger button container */
