@@ -5,19 +5,20 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Crete Round', serif;
 }
 
 .body-font {
-    font-family: 'Crete Round', serif;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
 }
 
 h1 {
-    font-weight: 700;
+    font-weight: 800;
 }
 
 #club-heading {
@@ -87,6 +88,7 @@ beyond the screen width. */
 }
 
 .header-banner h2{
+    /* font-family: 'Montserrat', sans-serif; */
     padding: 20px;
     text-align: center;
 }
