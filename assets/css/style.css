@@ -188,3 +188,22 @@ h3 {
 #why-taekwondo {
     padding-top: 35px;
 }
+
+/* ------------------------------------- Footer Styling */
+footer a {
+
+}
+
+.social-link-container {
+    text-align: center;
+    padding: 0;
+}
+
+@media (max-width: 755px) {
+    .social-site {
+        display: inline-block;
+        visibility:hidden;
+        width:0;
+        font-size: 0;
+    }
+}
