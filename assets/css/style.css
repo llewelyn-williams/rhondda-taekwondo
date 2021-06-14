@@ -21,7 +21,10 @@ h1 {
 }
 
 #club-heading {
-    width: 66.6%; /* Needed to prevent overlap with the menu dropdown button. */
+    /* Width needed to prevent overlap with the menu dropdown button.
+    And also to cause brek to double lines at appropriate point. */
+    width: 65%; 
+    left: 0.5rem;
 }
 
 .container-fluid, .row {
@@ -62,8 +65,14 @@ beyond the screen width. */
 }
 
 #nav-area {
-    height: 56px;
+    height: 70px;
     background-color: white;
+}
+
+@media (max-width:767px) {
+    #nav-area {
+        height: 100px;
+    }
 }
 
 /* Position the header text vertically centred. */
@@ -96,7 +105,10 @@ beyond the screen width. */
 .nav-item{
     border-left:2px solid black;
     border-top:2px solid black;
+}
 
+.navbar-nav .nav-link{
+    padding-left: 10px;
 }
 
 .navbar-light {
@@ -112,21 +124,22 @@ beyond the screen width. */
 
 
 .navbar-collapse {
-    padding-top: 0.5rem; /* Drops the navigation down to become level with the top of the next page area */
+    padding-top: 20px; /* Drops the navigation down to become level with the top of the next page area */
 }
 
 /* The beolow style needs the media query as it inturups the function
 of the bootstrap animatimation on the nav element if set while using 
 the dropdown */
-@media (min-width: 576px) {
+@media (min-width: 767px) {
     .navbar-collapse {
         height: 100%; /* Helps to align the navigation to the bottom of its area. */
+        padding-top: 10px;
     }
 }
 
 /* The burger button container */
 .navbar-toggler {
-    margin-top: .5rem;
+    margin-top: 1.25rem;
     margin-right: .5rem;
 }
 
