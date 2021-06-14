@@ -124,7 +124,7 @@ beyond the screen width. */
 
 
 .navbar-collapse {
-    padding-top: 20px; /* Drops the navigation down to become level with the top of the next page area */
+    padding-top: 23px; /* Drops the navigation down to become level with the top of the next page area */
 }
 
 /* The beolow style needs the media query as it inturups the function
@@ -139,7 +139,7 @@ the dropdown */
 
 /* The burger button container */
 .navbar-toggler {
-    margin-top: 1.25rem;
+    margin-top: 23px;
     margin-right: .5rem;
 }
 
