@@ -76,7 +76,7 @@ beyond the screen width. */
 }
 
 /* Position the header text vertically centred. */
-.text-align-vertical-center {
+.align-vertical-center {
         /* Styles taken from W3C Schools Guide https://www.w3schools.com/howto/howto_css_center-vertical.asp */
         margin: 0;
         position: absolute;
@@ -84,6 +84,10 @@ beyond the screen width. */
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
         /* --- */
+}
+
+.no-break {
+    white-space: nowrap;
 }
 
 .header-banner h2{
@@ -190,20 +194,56 @@ h3 {
 }
 
 /* ------------------------------------- Footer Styling */
-footer a {
+footer {
+    background-color: rgb(192, 192, 192);
+}
 
+footer a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer a i{
+    font-size: 1.25rem;
+    padding: 0 5px;
 }
 
 .social-link-container {
     text-align: center;
-    padding: 0;
+    min-width: 47px;
+    padding: 0 5px;
 }
 
-@media (max-width: 755px) {
+@media (max-width: 1200px) {
     .social-site {
         display: inline-block;
         visibility:hidden;
         width:0;
         font-size: 0;
+    }
+}
+
+@media (max-width: 645px) {
+    .social-link-container {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 451px) {
+    .social-link-container {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 360px) {
+    .social-link-container {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 300px) {
+    .social-link-container {
+        min-width: 41px;
+        padding: 0 3px;
     }
 }
