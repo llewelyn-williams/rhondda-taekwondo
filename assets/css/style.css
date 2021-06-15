@@ -265,3 +265,14 @@ footer a i{
 .contact-block  button{
     margin: 35px 0;
 }
+
+@media (min-width: 1200px) {
+    .contact-block {
+        padding-top: 95px;
+        padding-bottom: 95px;
+    }
+
+    #contact-header-banner{
+        height: 460px;
+    }
+}
