@@ -194,7 +194,7 @@ h3 {
     padding: 20px;
 }
 
-.why-taekwondo {
+.why-taekwondo-styles {
     padding-top: 35px;
 }
 
@@ -328,4 +328,29 @@ address {
 
 address .address-line {
     padding: 0;
+}
+
+
+/* ------------------------------------- Special */
+
+/* Navigation points used to allow #linking to specific
+areas of the document. Due to the fixed heading they
+need to actually be above where the content actually
+is, therefore the negative position.
+Rather than matching the exact height of the header
+they have an addition 5px to avoid having them sit
+with two blaock border touching each other.
+They need to be placed at the bottom of the 
+preceeding section to avoid their position being
+disrupted by padding on the actual content they are
+linking to. */
+.navigation-point {
+    position: relative;
+    top: -65px;
+}
+
+@media (max-width:767px) {
+    .navigation-point {
+        top: -95px;
+    }
 }
