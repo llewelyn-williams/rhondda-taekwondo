@@ -100,8 +100,8 @@ beyond the screen width. */
     text-align: center;
 }
 
-.half-transparent-highlight-white {
-    background-color: rgba(255, 255, 255, .5);
+.quarter-transparent-highlight-white {
+    background-color: rgba(255, 255, 255, .75);
 }
 
 @media (min-width: 576px) {
