@@ -66,7 +66,7 @@ beyond the screen width. */
 }
 
 .home-header-banner {
-    background: url(../images/tkd-girls.jpg);
+    background-image: url(../images/tkd-girls.jpg);
     height: 400px;
     background-position: 45% 35%;
 }
@@ -313,7 +313,7 @@ footer a i{
 }
 
 .contact-header-banner{
-    background: url(../images/dobok-top.jpg);
+    background-image: url(../images/dobok-top.jpg);
     height: 400px;
     background-position: 45% 80%;
 }
@@ -338,7 +338,7 @@ footer a i{
 /* ---------------------------------------------- Classes Page */
 
 .classes-header-banner{
-    background: url(../images/dobok-top.jpg);
+    background-image: url(../images/dobok-top.jpg);
     height: 400px;
     background-position: 45% 80%;
 }
