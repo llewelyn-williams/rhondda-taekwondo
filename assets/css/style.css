@@ -354,3 +354,13 @@ linking to. */
         top: -95px;
     }
 }
+
+/* ----------------------------------------------- 404 */
+.four-o-four {
+    /* need to get underneath the fixed header */
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 23vh 50px;
+}
