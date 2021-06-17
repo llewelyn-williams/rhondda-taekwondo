@@ -65,8 +65,7 @@ beyond the screen width. */
     Be mindful that if the header height changes due to altered
     content or due to differnt screen sizes then this value may
     need to be altered. */
-    margin-top: 56px;   
-
+    margin-top: 70px;   
 }
 
 .nav-area {
@@ -77,6 +76,14 @@ beyond the screen width. */
 @media (max-width:767px) {
     .nav-area {
         height: 100px;
+    }
+
+    .header-banner{
+        /* Top margin to be the same as the height of the nav area.
+        Be mindful that if the header height changes due to altered
+        content or due to differnt screen sizes then this value may
+        need to be altered. */
+        margin-top: 100px;   
     }
 }
 
@@ -275,13 +282,21 @@ footer a i{
     margin: 35px 0;
 }
 
+.contact-header-banner{
+    background: url(../images/dobok-top.jpg);
+    background-size: cover;
+    height: 400px;
+    background-position: 45% 80%;
+    position: relative;
+}
+
 @media (min-width: 1200px) {
     .contact-block {
         padding-top: 95px;
         padding-bottom: 95px;
     }
 
-    #contact-header-banner{
+    .contact-header-banner{
         height: 460px;
     }
 }
