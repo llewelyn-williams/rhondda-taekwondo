@@ -286,6 +286,12 @@ footer a i{
     }
 }
 
+/* ------------------- Modal */
+
+.form-group-message{
+    padding-top:12px;
+}
+
 /* ---------------------------------------------- Classes Page */
 
 iframe {
@@ -364,3 +370,4 @@ linking to. */
     align-items: center;
     padding: 23vh 50px;
 }
+
