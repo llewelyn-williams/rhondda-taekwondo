@@ -56,16 +56,19 @@ beyond the screen width. */
 }
 
 .header-banner{
-    background: url(../images/tkd-girls.jpg);
     background-size: cover;
-    height: 400px;
-    background-position: 45% 35%;
     position: relative;
     /* Top margin to be the same as the height of the nav area.
     Be mindful that if the header height changes due to altered
     content or due to differnt screen sizes then this value may
     need to be altered. */
     margin-top: 70px;   
+}
+
+.home-header-banner {
+    background: url(../images/tkd-girls.jpg);
+    height: 400px;
+    background-position: 45% 35%;
 }
 
 .nav-area {
@@ -284,10 +287,8 @@ footer a i{
 
 .contact-header-banner{
     background: url(../images/dobok-top.jpg);
-    background-size: cover;
     height: 400px;
     background-position: 45% 80%;
-    position: relative;
 }
 
 @media (min-width: 1200px) {
@@ -308,6 +309,12 @@ footer a i{
 }
 
 /* ---------------------------------------------- Classes Page */
+
+.classes-header-banner{
+    background: url(../images/dobok-top.jpg);
+    height: 400px;
+    background-position: 45% 80%;
+}
 
 iframe {
     width: 100%;
