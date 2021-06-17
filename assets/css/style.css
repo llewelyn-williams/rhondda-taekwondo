@@ -281,8 +281,35 @@ footer a i{
     padding-bottom: 60px;
 }
 
-.contact-block  button{
+.contact-block button{
     margin: 35px 0;
+}
+
+.contact-block p {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media (max-width: 575px) {
+    .contact-block {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 360px) {
+    .club-email p {
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 280px) {
+    .club-email p {
+        font-size: 0.5rem;
+    }
 }
 
 .contact-header-banner{
