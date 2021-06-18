@@ -195,6 +195,7 @@ h3 {
 .section-padding p {
     padding: 15px 30px;
     margin: 0;
+    text-align: center;
 }
 
 .list-inline {
