@@ -219,6 +219,13 @@ h3 {
 
 .list-inline {
     padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
 }
 .list-inline-item {
     padding: 20px;
