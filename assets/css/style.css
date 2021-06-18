@@ -245,7 +245,7 @@ footer {
 that then have much taller viewport than the content
 of the page, resulting in the footer not being at
 the bottom.  */
-@media (min-width: 1440px) {
+@media (min-width: 1440px) and (min-height: 970px) {
     footer {
         margin-top: calc(100vh - 952px);
     }
