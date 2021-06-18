@@ -121,6 +121,8 @@ beyond the screen width. */
     }
 }
 
+/* ------------------------------------------------------ Navigation */
+
 .nav-item{
     border-left:2px solid black;
     border-top:2px solid black;
@@ -162,6 +164,15 @@ the dropdown */
     margin-right: .5rem;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: #212529;
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: white;
+    background-color: #212529;
+}
 
 .mid-page-image {
     background: url(../images/competition-arena.jpg);
