@@ -198,6 +198,14 @@ h3 {
     text-align: center;
 }
 
+.section-padding li {
+    padding: 15px;
+}
+
+.section-padding ul {
+    padding-left: 15px;
+}
+
 .list-inline {
     padding: 20px;
 }
@@ -413,6 +421,24 @@ linking to. */
 @media (max-width:767px) {
     .navigation-point {
         top: -95px;
+    }
+}
+
+@media (max-width:461px) {
+    .when-area {
+        padding-bottom: 0;
+    }
+    .when-times {
+        padding-top: 5px;
+    }
+}
+
+@media (max-width:428px) {
+    .how-much-area {
+        padding-bottom: 0;
+    }
+    .how-much-prices {
+        padding-top: 5px;
     }
 }
 
