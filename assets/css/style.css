@@ -130,6 +130,7 @@ beyond the screen width. */
 
 .navbar-nav .nav-link{
     padding-left: 10px;
+    width: 100px;
 }
 
 .navbar-light {
