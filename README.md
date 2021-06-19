@@ -2,9 +2,9 @@
 
 A responsive website for a local martial arts club in the Rhondda valley. The the website serves as promotion for the club, a point to discover essential details about the classes and opportunities to make contact.
 
-**The live project is available on GitHub Pages: [Rhondda Taekwondo](#)**
+**The live project is available on GitHub Pages: [Rhondda Taekwondo](https://llewelyn-williams.github.io/rhondda-taekwondo/)**
 
-![Image showing the project displaying responsively on different device types.](https://dummyimage.com/600x450/a6a6a6/dedede.png&text=Beautiful+Spread+of+Responsive+Mockups)
+![Image showing the project displaying responsively on different device types.](assets/readme-images/mockups.png)
 
 
 ## Table of Contents
