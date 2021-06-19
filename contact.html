@@ -17,99 +17,107 @@
 </head>
 
 <body class="body-font">
-    <header class="container-fluid">
-        <div class="row fixed-top black-bottom-border-5 nav-area">
-            <div class="col-8">
-                <h1 class="align-vertical-center club-heading">
-                    <a href="index.html">Rhondda Taekwondo</a>
-                </h1>
-            </div>
-            <div class="col-4">
-                <nav class="navbar-light navbar-expand-md">
-                    <div class="d-flex justify-content-end">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+    <!-- Wrapper class used to allow the footer to stick the bottom.
+    Acheived by having two children of the wrapper and having the
+    warpper use flex column direction justified with space between.
+    Whilst the wapper is set to 100 percent of the viewport height.-->
+    <div class="wrapper">
+        <div class="content-wrapper">
+            <header class="container-fluid">
+                <div class="row fixed-top black-bottom-border-5 nav-area">
+                    <div class="col-8">
+                        <h1 class="align-vertical-center club-heading">
+                            <a href="index.html">Rhondda Taekwondo</a>
+                        </h1>
                     </div>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                        <ul class="navbar-nav black-top-border-3">
-                            <li class="nav-item hvr-bounce-to-top">
-                                <a class="nav-link" href="index.html" aria-current="page">Home</a>
-                            </li>
-                            <li class="nav-item hvr-bounce-to-top">
-                                <a class="nav-link" href="classes.html">Classes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
+                    <div class="col-4">
+                        <nav class="navbar-light navbar-expand-md">
+                            <div class="d-flex justify-content-end">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                                <ul class="navbar-nav black-top-border-3">
+                                    <li class="nav-item hvr-bounce-to-top">
+                                        <a class="nav-link" href="index.html" aria-current="page">Home</a>
+                                    </li>
+                                    <li class="nav-item hvr-bounce-to-top">
+                                        <a class="nav-link" href="classes.html">Classes</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
                     </div>
-                </nav>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 header-banner contact-header-banner">
-                <h2 class="quarter-transparent-highlight-white align-vertical-center">Get in Touch</h2>
-            </div>
-        </div>
-    </header>
-    <section class="container-fluid black-top-border-5">
-
-        <div class="row">
-            <div class="col section-padding contact-block">
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                    data-bs-target="#contact-modal">Send
-                    a Message</button>
-            </div>
-            <div class="col section-padding contact-block">
-                <h3>Call</h3>
-                <p class="no-break">01443 555 123</p>
-            </div>
-            <div class="col section-padding contact-block">
-                <h3>Email</h3>
-                <div class="club-email">
-                    <p>info@rhonddataekwondo.wales</p>
                 </div>
-            </div>
-        </div>
-    </section>
-    <footer class="container-fluid black-top-border-5 section-padding">
-        <div class="row justify-content-between">
-            <div class="col-4">
-                <small>Rhondda Taekwondo is an associate member of the British Taekwondo Council</small>
-            </div>
-            <div class="col-5">
                 <div class="row">
-                    <div class="social-link-container col-3">
-                        <a href="https://www.facebook.com/" target="_blank" rel="noopener">
-                            <i class="fab fa-facebook"></i>
-                            <div class="social-site"> Facebook</div>
-                        </a>
+                    <div class="col-12 header-banner contact-header-banner">
+                        <h2 class="quarter-transparent-highlight-white align-vertical-center">Get in Touch</h2>
                     </div>
-                    <div class="social-link-container col-3">
-                        <a href="https://www.instagram.com/" target="_blank" rel="noopener">
-                            <i class="fab fa-instagram"></i>
-                            <div class="social-site"> Instragram</div>
-                        </a>
+                </div>
+            </header>
+            <section class="container-fluid black-top-border-5">
+
+                <div class="row">
+                    <div class="col section-padding contact-block">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#contact-modal">Send
+                            a Message</button>
                     </div>
-                    <div class="social-link-container col-3">
-                        <a href="https://twitter.com/" target="_blank" rel="noopener">
-                            <i class="fab fa-twitter"></i>
-                            <div class="social-site"> Twitter</div>
-                        </a>
+                    <div class="col section-padding contact-block">
+                        <h3>Call</h3>
+                        <p class="no-break">01443 555 123</p>
                     </div>
-                    <div class="social-link-container col-3">
-                        <a href="https://www.youtube.com/" target="_blank" rel="noopener">
-                            <i class="fab fa-youtube"></i>
-                            <div class="social-site"> YouTube</div>
-                        </a>
+                    <div class="col section-padding contact-block">
+                        <h3>Email</h3>
+                        <div class="club-email">
+                            <p>info@rhonddataekwondo.wales</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="container-fluid black-top-border-5 section-padding contact-footer">
+            <div class="row justify-content-between">
+                <div class="col-4">
+                    <small>Rhondda Taekwondo is an associate member of the British Taekwondo Council</small>
+                </div>
+                <div class="col-5">
+                    <div class="row">
+                        <div class="social-link-container col-3">
+                            <a href="https://www.facebook.com/" target="_blank" rel="noopener">
+                                <i class="fab fa-facebook"></i>
+                                <div class="social-site"> Facebook</div>
+                            </a>
+                        </div>
+                        <div class="social-link-container col-3">
+                            <a href="https://www.instagram.com/" target="_blank" rel="noopener">
+                                <i class="fab fa-instagram"></i>
+                                <div class="social-site"> Instragram</div>
+                            </a>
+                        </div>
+                        <div class="social-link-container col-3">
+                            <a href="https://twitter.com/" target="_blank" rel="noopener">
+                                <i class="fab fa-twitter"></i>
+                                <div class="social-site"> Twitter</div>
+                            </a>
+                        </div>
+                        <div class="social-link-container col-3">
+                            <a href="https://www.youtube.com/" target="_blank" rel="noopener">
+                                <i class="fab fa-youtube"></i>
+                                <div class="social-site"> YouTube</div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
     <!-- Modal - Adapted from Boostrap component example https://getbootstrap.com/docs/5.0/components/modal/-->
     <div class="modal fade" id="contact-modal" tabindex="-1" aria-labelledby="contact-modal-label" aria-hidden="true">
         <div class="modal-dialog">

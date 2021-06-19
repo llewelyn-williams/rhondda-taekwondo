@@ -133,6 +133,13 @@ beyond the screen width. */
     width: 100px;
 }
 
+@media (max-width: 767px) {
+    .navbar-nav .nav-link{
+        width: auto;
+        height: 100%
+    }
+}
+
 .navbar-light {
     padding-bottom: 0;
     height: 100%;
@@ -241,14 +248,15 @@ footer {
     background-color: rgb(192, 192, 192);
 }
 
-/* Media query to force footer down on larger monitors
-that then have much taller viewport than the content
-of the page, resulting in the footer not being at
-the bottom.  */
-@media (min-width: 1440px) and (min-height: 970px) {
-    footer {
-        margin-top: calc(100vh - 952px);
-    }
+/* This wrapper contains two children. The content and the footer.
+THe following styles allow the footer to be fixed at the bottom
+of the screen even when the viewport height far exceed the height
+of the accumulated page content. */
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 footer a {
