@@ -426,6 +426,32 @@ address .address-line {
     padding: 0;
 }
 
+@media (min-width: 576px) {
+    .where-container, .when-container, .how-much-container {
+        width: 233px;
+    }
+    .where-container h3, .when-container h3, .how-much-container h3 {
+        text-align: left;
+    }
+    .classes-page-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+    .address-container {
+        justify-content: left;
+    }
+}
+
+@media (max-width: 575px){
+    .when-times, .how-much-prices{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
 
 /* ------------------------------------- Special */
 
@@ -451,7 +477,7 @@ linking to. */
     }
 }
 
-@media (max-width:461px) {
+@media (max-width:575px) {
     .when-area {
         padding-bottom: 0;
     }
@@ -460,7 +486,7 @@ linking to. */
     }
 }
 
-@media (max-width:428px) {
+@media (max-width:575px) {
     .how-much-area {
         padding-bottom: 0;
     }
@@ -469,7 +495,7 @@ linking to. */
     }
 }
 
-/* THe below class was taken from https://ianlunn.github.io/Hover/ */
+/* The below class was taken from https://ianlunn.github.io/Hover/ */
 /* Bounce To Top */
 .hvr-bounce-to-top {
     display: inline-block;
