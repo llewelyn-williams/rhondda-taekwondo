@@ -63,12 +63,64 @@ beyond the screen width. */
     content or due to differnt screen sizes then this value may
     need to be altered. */
     margin-top: 70px;   
+    /* height as proportion of width for resposive image size */
+    height: 33vw;
 }
 
 .home-header-banner {
     background-image: url(../images/tkd-girls.jpg);
-    height: 400px;
     background-position: 45% 35%;
+}
+
+@media (max-width: 1200px) {
+    .home-header-banner {
+        background-image: url(../images/tkd-girls-xl.jpg);
+    }
+}
+
+@media (max-width: 992px) {
+    .home-header-banner {
+        background-image: url(../images/tkd-girls-lg.jpg);
+        height: 37vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-header-banner {
+        background-image: url(../images/tkd-girls-lg.jpg);
+        height: 40vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .home-header-banner {
+        background-image: url(../images/tkd-girls-lg.jpg);
+        height: 43vw;
+    }
+}
+
+@media (max-width: 451px) {
+    .home-header-banner {
+        height: 66vw;
+    }
+}
+
+@media (max-width: 360px) {
+    .home-header-banner {
+        height: 80vw;
+    }
+}
+
+@media (max-width: 300px) {
+    .home-header-banner {
+        height: 100vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-header-banner{
+        height: 20vw;
+    }
 }
 
 .nav-area {
@@ -190,6 +242,56 @@ the dropdown */
     background-position-y: 60%;
 }
 
+@media (max-width: 1200px) {
+    .mid-page-image {
+        background-image: url(../images/competition-arena-xl.jpg);
+    }
+}
+
+@media (max-width: 992px) {
+    .mid-page-image {
+        background-image: url(../images/competition-arena-lg.jpg);
+        height: 37vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .mid-page-image {
+        background-image: url(../images/competition-arena-lg.jpg);
+        height: 40vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .mid-page-image {
+        background-image: url(../images/competition-arena-lg.jpg);
+        height: 43vw;
+    }
+}
+
+@media (max-width: 451px) {
+    .mid-page-image {
+        height: 66vw;
+    }
+}
+
+@media (max-width: 360px) {
+    .mid-page-image {
+        height: 80vw;
+    }
+}
+
+@media (max-width: 300px) {
+    .mid-page-image {
+        height: 100vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .mid-page-image{
+        height: 20vw;
+    }
+}
 
 .black-top-border-5 {
     border-top: 5px solid black;
@@ -355,8 +457,52 @@ footer a i{
 
 .contact-header-banner{
     background-image: url(../images/dobok-top.jpg);
-    height: 400px;
-    background-position: 45% 80%;
+    background-position: 36% 80%;
+}
+
+@media (max-width: 1200px) {
+    .contact-header-banner {
+        background-image: url(../images/dobok-top-xl.jpg);
+    }
+}
+
+@media (max-width: 992px) {
+    .contact-header-banner {
+        background-image: url(../images/dobok-top-lg.jpg);
+        height: 35vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-header-banner {
+        background-image: url(../images/dobok-top-lg.jpg);
+        height: 38vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact-header-banner {
+        background-image: url(../images/dobok-top-lg.jpg);
+        height: 41vw;
+    }
+}
+
+@media (max-width: 451px) {
+    .contact-header-banner {
+        height: 64vw;
+    }
+}
+
+@media (max-width: 360px) {
+    .contact-header-banner {
+        height: 78vw;
+    }
+}
+
+@media (max-width: 300px) {
+    .contact-header-banner {
+        height: 100vw;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -366,7 +512,7 @@ footer a i{
     }
 
     .contact-header-banner{
-        height: 460px;
+        height: 20vw;
     }
 }
 
@@ -380,8 +526,58 @@ footer a i{
 
 .classes-header-banner{
     background-image: url(../images/dojang.jpg);
-    height: 400px;
-    background-position: 39% 44%;
+    background-position: 56% 18%;
+}
+
+@media (max-width: 1200px) {
+    .classes-header-banner {
+        background-image: url(../images/dojang-xl.jpg);
+    }
+}
+
+@media (max-width: 992px) {
+    .classes-header-banner {
+        background-image: url(../images/dojang-lg.jpg);
+        height: 35vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .classes-header-banner {
+        background-image: url(../images/dojang-lg.jpg);
+        height: 38vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .classes-header-banner {
+        background-image: url(../images/dojang-lg.jpg);
+        height: 41vw;
+    }
+}
+
+@media (max-width: 451px) {
+    .classes-header-banner {
+        height: 64vw;
+    }
+}
+
+@media (max-width: 360px) {
+    .classes-header-banner {
+        height: 78vw;
+    }
+}
+
+@media (max-width: 300px) {
+    .classes-header-banner {
+        height: 100vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .classes-header-banner{
+        height: 20vw;
+    }
 }
 
 iframe {
