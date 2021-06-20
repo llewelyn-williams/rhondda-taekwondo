@@ -253,6 +253,7 @@ There were the following shortcomings in the technologies used.
  - Taekwondo Area Home Page Image by [Legado OficialPE](https://www.flickr.com/photos/149051229@N03/49548468361)
  - Instrutor and Student Classes Page Image by [cottonbro](https://www.pexels.com/photo/woman-in-white-coat-standing-on-brown-wooden-floor-7991196/)
  - Uniform Badge Contact Page Image by [cottonbro](https://www.pexels.com/photo/person-in-white-button-up-shirt-5999201/)
+ - Mockups Screenshot from [Am I Responsive](http://ami.responsivedesign.is/)
 
 ### Thanks
 
