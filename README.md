@@ -249,9 +249,10 @@ There were the following shortcomings in the technologies used.
 
 ### Media
 
- - Source
- - Other
- - Other
+ - Smiling TKD Girls Home Page Hero Image by [Scott Feldstein](https://www.flickr.com/photos/scottfeldstein/278698683)
+ - Taekwondo Area Home Page Image by [Legado OficialPE](https://www.flickr.com/photos/149051229@N03/49548468361)
+ - Instrutor and Student Classes Page Image by [cottonbro](https://www.pexels.com/photo/woman-in-white-coat-standing-on-brown-wooden-floor-7991196/)
+ - Uniform Badge Contact Page Image by [cottonbro](https://www.pexels.com/photo/person-in-white-button-up-shirt-5999201/)
 
 ### Thanks
 
