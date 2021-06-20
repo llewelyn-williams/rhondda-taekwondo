@@ -176,7 +176,7 @@ The design uses a predominately black and white colour scheme inspired by the do
  - [Dynamic Dummy Image Generator](https://dummyimage.com/)
 	 - To provide placeholder images during development
   - [favicon.io](https://favicon.io/emoji-favicons/martial-arts-uniform)
-   - To generate favicon.ico
+	 - To generate favicon.ico
 
 
 ## Testing
