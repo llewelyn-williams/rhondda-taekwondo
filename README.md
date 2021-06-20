@@ -39,37 +39,37 @@ A responsive website for a local martial arts club in the Rhondda valley. The th
 
 ## Features
 
-A summary of the features in the project.
+he website features 3 pages designed to provide quick and simple access to basic information someone may need to help guide them towards joining the club.
 
 ### Current Features
 These features have been implemented in the project.
 
- - Feature One
-	 * Detail of the feature
-	 * Detail of the feature
+ - Homepage
+	 * A large hero image of taekwondo practitioners smiling widely, clearly enjoying themselves, showcases the excitement and fun that can be had from experiencing the martial art.
+	 * Overlaid title clearly states what the website is about.
 	 
-![Screenshot showing specified implemented feature](https://dummyimage.com/600x200/a6a6a6/dedede.png&text=Feature+Screenshot)
+![Hero Image Banner](assets/readme-images/feature-hero-image.png)
 
 
- - Feature Two
-	 * Detail of the feature
-	 * Detail of the feature
+ - Responsive Navigation Menu
+	 * A collapsible menu, that hides behind a button on smaller devices.
+	 * Hover CSS used on the buttons to add interaction feedback to the user.
 	 
-![Screenshot showing specified implemented feature](https://dummyimage.com/600x200/a6a6a6/dedede.png&text=Feature+Screenshot)
+![Collapsed Navigation](assets/readme-images/feature-collapsed-menu.png)
 
 
- - Feature Three
-	 * Detail of the feature
-	 * Detail of the feature
+ - Google Maps
+	 * An embedded interactive map from Google Maps.
+	 * Allows the user to visually see the location and begin to plot their journey to a class.
 	 
-![Screenshot showing specified implemented feature](https://dummyimage.com/600x200/a6a6a6/dedede.png&text=Feature+Screenshot)
+![Embedded Google Map](assets/readme-images/feature-google-maps.png)
 
 
- - Feature Four
-	 * Detail of the feature
-	 * Detail of the feature
+ - Contact Form
+	 * A way of directly communicating with the club from the website itself. It only had two entry fields to keep the demands of the user as small as required.
+	 * The form sits on a modal that can be accessed via a button on the contact page.
 	 
-![Screenshot showing specified implemented feature](https://dummyimage.com/600x200/a6a6a6/dedede.png&text=Feature+Screenshot)
+![Contact form via Modal](assets/readme-images/feature-contact-form.png)
 
 
 ### Future Features
