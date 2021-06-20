@@ -255,5 +255,6 @@ There were the following shortcomings in the technologies used.
 
 ### Thanks
 
- - You
- - and you
+ - Code Institue
+ - My Code Instute Mentor
+ - My Long Suffering Parter
