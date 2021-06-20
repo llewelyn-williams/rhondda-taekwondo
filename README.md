@@ -39,7 +39,7 @@ A responsive website for a local martial arts club in the Rhondda valley. The th
 
 ## Features
 
-he website features 3 pages designed to provide quick and simple access to basic information someone may need to help guide them towards joining the club.
+The website features 3 pages designed to provide quick and simple access to basic information someone may need to help guide them towards joining the club.
 
 ### Current Features
 These features have been implemented in the project.
@@ -162,7 +162,7 @@ The design uses a predominately black and white colour scheme inspired by the do
  - Git
  	 - Version control.
  - GitHub
- 	 - Cloud-based storage and deployment via GItHub Pages.
+ 	 - Cloud-based storage and deployment via GitHub Pages.
  - GitPod
  	 - IDE.
  - [StackEdit](https://stackedit.io)
