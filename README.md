@@ -146,7 +146,7 @@ The complete set of wireframes can be viewed in via these images:
 
 ### Surface
 
-Considerations and decisions.
+The design will uses a predominately black and white colour scheme inspired by the dobok (taekwondo uniform) and the taegukgi (flag of South Korea). Clean straight lines with high contrast reflect the visual representation of taekwondo the work over as well as lending to the sense of efficiency and directness, reflected in the style of the martial art. Links are in blue, one of the other colours found on the taegukgi, the blue also serving its place as the web’s default colour for links, aiding speed of recognition.
 
 
 ## Technologies Used
