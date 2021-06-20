@@ -231,13 +231,14 @@ There were the following shortcomings in the technologies used.
 
 ## Deployment Instructions
 
- 1. Instruction item
- 2. Instruction item
- 3. Instruction item
- 4. Instruction item
- 5. Instruction item
- 6. Instruction item
- 7. Instruction item
+Deployment via GitHubPages
+
+ 1. Navigate to GitHub Repository
+ 2. Use the **Settings** link (cog icon) from the menu atop the repository.
+ 3. Use the **Pages** link from the left hand navigation menu.
+ 4. Select **Branch: master** as the source.
+ 5. Click **Save**
+ 6. The site can be found at the address `https://`**github-username**`.github.io/`**repository-name**
 
 
 ## Acknowledgements
