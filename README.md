@@ -173,6 +173,8 @@ The design uses a predominately black and white colour scheme inspired by the do
 	 - For the creation of [sitemap](#navigation-tree) and [wireframes](#wireframes).
  - [Gimp](https://www.gimp.org/)
 	 - Editing, cropping, scaling of site images
+ - [Dynamic Dummy Image Generator](https://dummyimage.com/)
+	 - To provide placeholder images during development
 
 
 ## Testing
