@@ -242,10 +242,13 @@ There were the following shortcomings in the technologies used.
 
 ### Content
 
- - Source
- - Source
- - Source
- - Source
+Reused or inspired code from the following sources:
+ - [Bootstrap Docs](https://getbootstrap.com/docs/5.0/)
+ - [Hover.css](https://ianlunn.github.io/Hover/)
+ - [StackOverflow Answers](https://stackoverflow.com/questions/5110249/wildcard-in-css-for-classes)
+ - [Bootstrap Docs](https://www.gimp.org/)
+ - [W3C Schools Guide](https://www.w3schools.com/howto/howto_css_center-vertical.asp)
+
 
 ### Media
 
