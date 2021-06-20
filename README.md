@@ -74,13 +74,13 @@ These features have been implemented in the project.
 
 ### Future Features
 Possible features to be considered for future releases.
-- Feature One
-	 * Detail of the feature
-	 * Detail of the feature
+- Blog / News
+	 * A way for updates about events to be featured on the page, showcasing what the club is involved with.
+	 * A place where ideas can be shared about Taekwondo practice at the club.
 
-- Feature Two
-	 * Detail of the feature
-	 * Detail of the feature
+- Tutorials / Guides
+	 * More detailed information about the club including the grading system, code of conduct etc.
+	 * Video guides showing the poomsae (patterns/forms) of Taekwondo that need to be learnt for gradings.
 
 
 ## User Experience Design
