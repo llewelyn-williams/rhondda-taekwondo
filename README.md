@@ -157,20 +157,22 @@ The design uses a predominately black and white colour scheme inspired by the do
 
 ### Frameworks
  - Bootstrap
- - Additional Framework
- - Additional Framework
  
 ### Other Services and Software
+ - Git
+ 	 - Version control.
  - GitHub
- 	 - How and why used.
+ 	 - Cloud-based storage and deployment via GItHub Pages.
  - GitPod
- 	 - How and why used.
+ 	 - IDE.
  - [StackEdit](https://stackedit.io)
 	 - Used to assist in the planning and creation of this README markdown file.
  - [markdown-toc](https://ecotrust-canada.github.io/markdown-toc)
 	 - Used to generate table of contents in markdown for this README markdown file.
  - [miro](https://miro.com/)
 	 - For the creation of [sitemap](#navigation-tree) and [wireframes](#wireframes).
+ - [Gimp](https://www.gimp.org/)
+	 - Editing, cropping, scaling of site images
 
 
 ## Testing
