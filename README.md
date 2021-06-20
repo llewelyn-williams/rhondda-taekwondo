@@ -181,12 +181,12 @@ The design uses a predominately black and white colour scheme inspired by the do
 
 ### Functionality
 
-Interactive elements.
+Interactive Elements
  1. Manual testing of the intactive elements of the website.
  2. Clicking on all internal and external links on all pages. Filling in the form, currently and, various ways incorrectly. Zooming and scrolling on Google Map.
  3. All internal and external links function as expected. Form validation is behaving as expected. Google Map is behaving as expected.
  
-404 Test.  
+404 Test  
  1. Testing functionality of 404 page
  2. Entering random letters into the address bar in place of a known page and attempting to navigate there.
  3. The 404 page displayed as a result. However, some changes that had been made to other HTML pages had not been made to the 404 page.
@@ -194,13 +194,13 @@ Interactive elements.
 
 ### Usability
 
-Accessibility.  
+Accessibility  
  1. Google Developer Tools - Lighthouse
  2. Running a LIghthouse Report
  3. Result showed a score of 97 for accessibility, picking up that some links did not feature text or alt-text.
  4. I added alt-text to the icons used as links in the footer. Upon retesting the result was still the same, so I moved the alt tags to the <a> tags, however this did not alter the result of the test either.
 
-Compliance.  
+Compliance  
  1. Testing that the HTML and CSS used is valid.
  2. Running the code through the [W3C HTML](https://validator.w3.org/) and [Jigsaw CSS](https://jigsaw.w3.org/css-validator/) validators
  3. There were no errors or warnings for the HTML at the end of the project. However, intermittent testing throughout development did identify the odd stray closing tag or small typos. The CSS validator also had no errors, however it did have warnings about unknown vendor extensions for “-webkit” transform and transition properties.
@@ -208,7 +208,7 @@ Compliance.
 
 ### Responsiveness
 
-Ability to respond to screen size  
+Ability to Respond to Screen Size  
  1. Testing to see the difference in layout and behaviour on various screen sizes.
  2. Using Chrome Developer Tools to resize the viewport and observing the result.
  3. Throughout the development process the procedure was repeated and at many points the changes in layout observed were not desirable, elements would appear in places that were not aesthetically pleasing and often whitespace would be too much or too little.
