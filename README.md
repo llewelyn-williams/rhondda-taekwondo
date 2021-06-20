@@ -175,6 +175,8 @@ The design uses a predominately black and white colour scheme inspired by the do
 	 - Editing, cropping, scaling of site images
  - [Dynamic Dummy Image Generator](https://dummyimage.com/)
 	 - To provide placeholder images during development
+  - [favicon.io](https://favicon.io/emoji-favicons/martial-arts-uniform)
+   - To generate favicon.ico
 
 
 ## Testing
@@ -249,6 +251,7 @@ Reused or inspired code from the following sources:
  - Instrutor and Student Classes Page Image by [cottonbro](https://www.pexels.com/photo/woman-in-white-coat-standing-on-brown-wooden-floor-7991196/)
  - Uniform Badge Contact Page Image by [cottonbro](https://www.pexels.com/photo/person-in-white-button-up-shirt-5999201/)
  - Mockups Screenshot from [Am I Responsive](http://ami.responsivedesign.is/)
+ - Emoji used for favicon.ico is part of [Twemoji](https://twemoji.twitter.com/)
 
 ### Thanks
 
